@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Student Platform</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <h1 class="logo">StudentPlatform</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="signup.html" class="btn">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Login Section -->
+  <main class="auth-page login-page">
+    <section class="auth-card">
+      <h2>Welcome Back</h2>
+      <p>Login to access your study materials.</p>
+
+      <form class="auth-form">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="Enter your email"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            placeholder="Enter your password"
+            required
+          >
+        </div>
+
+        <button type="submit" class="btn primary">Login</button>
+      </form>
+
+      <div class="auth-links">
+        <p>
+          Don’t have an account?
+          <a href="signup.html">Sign up</a>
+        </p>
+        <p>
+          <a href="#">Forgot password?</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 StudentPlatform. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
